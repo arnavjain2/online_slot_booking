@@ -1,0 +1,15 @@
+extends base.pug
+
+block style 
+    style
+        include ../static/stylecontact.css
+block content
+    div.container
+        h1 FEEDBACK FORM
+        form(action="/feedback" method="post" class="form" ) 
+            input(type="text" name="name" placeholder="enter your name" class="myinput")
+            input(type="phone" name="phone" placeholder="enter your number" class="myinput")
+            input(type="email" name="email" placeholder="enter your mail" class="myinput")
+            input(type="text" name="desc" placeholder="please write your feedback" class="myinput")
+            button(class='btn')
+                | submit

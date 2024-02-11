@@ -1,0 +1,38 @@
+extends base.pug
+
+block script 
+    script(src="../static/index.js") 
+block style
+    style
+        include ../static/stylehome.css
+
+block content 
+    section#intro 
+        div STATIC ELECTRIC CAR CHARGING 
+        div.small 
+    section#secright
+        div#para
+            div#heading
+                | Automated Valet Parking System (AVPS). 
+            p#contect
+                | The system will offer a convenience to drivers who are faced with an overcrowding of both parking and charging locations as electric vehicle numbers grow steadily. It relocates fully charged vehicles from charging stations and allow other awaiting electric vehicles to charge. Upon commanding the vehicle to charge using a smartphone, the vehicle will automatically cruise to a vacant wireless charging station. When the vehicle is fully charged, it will relocate to another vacant parking space using the Automated Valet Parking System (AVPS), allowing other vehicles to charge at the spot. When the driver calls for the vehicle, it will then autonomously return to the location of the driver. The overall process is performed by continuous communication between electric vehicle, parking facility, charging system and driver. The parking facility sends location of empty parking spaces and charging stations, while the charging system updates the charging status of the vehicle in real-time. 
+        #paraimg 
+            img(src="download.jpg", alt="", srcset="")  
+    section#secleft
+        div#para
+            div#heading
+                | Automated Valet Parking System (AVPS). 
+            p#contect
+                | Hyundai and Kia are considering on commercializing the technology upon the launch of level 4 autonomous vehicle around year 2025. Hyundai and Kia also plan to commercialize autonomous vehicles in various smart cities from 2021 with a goal of launching fully autonomous vehicles by 2030.
+        #paraimg 
+            img(src="dynamic.jpg", alt="", srcset="") 
+
+    section#sponser 
+        h3 OUR OUTLETS
+        div#sponserimg
+            li  Pay And Park Public parking space 126, Residency Rd
+            li  Shanti Nagar parking Parking lot BLOCK-A, Double Rd, Next Big Bazar
+            li PEDL Parking Lot Parking lot WJ6J+PX2
+            li  Sivaji Nagar Parking Parking lot XJM3+87W, Commercial Street
+            li Safina Plaza Parking Valet parking service · In Safina Plaza XJH4+RRX, Main Guard Cross Rd
+

@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: beige;
+    padding: 13px 20px;
+}
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+    font-size: 23px;
+}
+#navbar li a{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 35px
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-right: 40px;
+}
+#logo img{
+    height: 40px;
+    filter:grayscale(0.2);
+}
+
+#footer{
+    height: 60px;
+    background-color: black ;
+    color: white;
+}

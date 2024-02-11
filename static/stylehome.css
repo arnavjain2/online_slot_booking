@@ -1,0 +1,123 @@
+#intro{
+    background: url('chip.jpg') no-repeat top right;
+    background-size: 100% 100%;
+    color: antiquewhite;
+    text-align: center ; 
+    height: 300px; 
+    width: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#intro div.small{
+    font-size: 25px     ;
+}
+
+#ourmission{
+    height: 300px; 
+    text-align: center;
+    margin: auto;
+}
+
+#ourmission div.mission{
+    font-size: 30px;
+    margin-top: 0;
+    
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    height: 200px;
+    width: 30%;
+    margin: 10px 20px; 
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+}
+.card-img img{
+    height: inherit;
+}
+
+
+#sponser{
+    height: 300px; 
+    background-color:crimson;
+
+}
+#sponser h3{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+#sponserimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: aliceblue;
+    font-size: large;
+    height: 200px;
+    margin: 10px auto;
+    padding: 0 20px;
+}
+
+
+
+
+
+#secright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30vh;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+#secleft{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 30vh;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+#para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 54px;
+}
+#paraimg{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+}
+#paraimg img{
+    height: 87%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 8px 69px;
+}
+
+#heading{
+    font-size: 32px;
+}
+#content{
+    font-size: 20px;
+}

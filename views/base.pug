@@ -1,0 +1,23 @@
+doctype html 
+html
+  head
+    title base 
+    block script
+    style
+        include ../static/style.css
+    block style
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="OIP.jpg", alt="", srcset="")
+                | ADA
+            li #[a(href='/') Home]
+            li #[a(href='/contact') contact]
+            li #[a(href='/services') book slot]
+            li #[a(href='/feedback') feedback]
+  
+    block content
+
+    section#footer 
+        | copyright | academy 2023
